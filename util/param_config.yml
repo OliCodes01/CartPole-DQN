@@ -1,0 +1,12 @@
+cartpole1:
+  env_name: 'CartPole-v1'
+  learning_rate: 0.001
+  gamma: 0.99
+  epsilon: 1.0
+  epsilon_decay: 0.9991
+  epsilon_end: 0.005
+  n_episodes: 3000
+  replay_memory: 50000
+  batch_size: 128
+
+
